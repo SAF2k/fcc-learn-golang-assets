@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	penniesPerText := 2
-	fmt.Printf("The type of penniesPerText is %T\n", penniesPerText)
+	penniesPerText := 2.0
+	fmt.Printf("The type of penniesPerText is %T\f", penniesPerText)
 }
